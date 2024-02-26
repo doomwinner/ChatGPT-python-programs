@@ -19,6 +19,7 @@ if user_input == "yes":
         # Display the PowerBall numbers with proper spacing
         powerball_numbers = f"{white_ball_1}  {white_ball_2}  {white_ball_3}  {white_ball_4}  {white_ball_5}    {red_ball}"
         print("\nHere are your PowerBall numbers:")
+        time.sleep(2)
         print(powerball_numbers)
 
         # Farewell message
